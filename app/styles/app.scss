@@ -57,36 +57,32 @@ p {
   margin-top: -25px;
 }
 
-.jumbo p,
-.jumbo address {
-  margin-bottom: 25px;
-}
-
-.jumbo img {
-  height: 200px;
-  position: relative;
-  top: -25px;
-  right: -20px;
-}
+// .jumbo img {
+//   height: 200px;
+//   position: relative;
+//   top: -25px;
+//   right: -20px;
+// }
 
 /**
  * Header
  */
 
  .header-container {
-  display: grid;
+  align-items: center;
+  display: flex;
+  height: 300px;
+  justify-content: space-around
 }
 
 .pcos-wc-logo {
   background: url(../assets/images/pcos-womens-center-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
+  border: 2px #44C0C5 solid;
   border-radius: 10%;
-
-  position: relative;
-  top: -25px;
+  height: 200px;
+  width: 280px;
 }
 
 .nav-btn-container {
