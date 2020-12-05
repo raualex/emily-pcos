@@ -50,20 +50,12 @@ p {
 .jumbo {
   background: #fff;
   height: 100vh;
-  padding: 10px;
   width: 100%;
 }
 
 .jumbo h2 {
   font-size: 3.2em;
 }
-
-// .jumbo img {
-//   height: 200px;
-//   position: relative;
-//   top: -25px;
-//   right: -20px;
-// }
 
 /**
  * Header
@@ -73,7 +65,11 @@ p {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around
+  height: 365px;
+  justify-content: space-around;
+  max-width: 100%;
+  padding: 10px;
+  width: 100%;
 }
 
 .pcos-wc-logo {
@@ -83,8 +79,8 @@ p {
   border: 2px #44C0C5 solid;
   border-radius: 10%;
   display: block;
-  min-height: 200px;
-  min-width: 280px;
+  min-height: 197px;
+  min-width: 279px;
   margin: 40px;
 }
 
