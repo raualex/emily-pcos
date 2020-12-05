@@ -48,7 +48,7 @@ p {
  */
 
 .jumbo {
-  padding: 50px;
+  padding: 10px;
   background: #fff;
 }
 
@@ -84,10 +84,18 @@ p {
   display: block;
   min-height: 200px;
   min-width: 280px;
-  margin: 15px;
+  margin: 40px;
+}
+
+.nav-icon {
+  fill: #fff;
+  height: 40px;
+  margin: 20px;
+  width: 40px;
 }
 
 .nav-btn-container {
+  border-radius: 20%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -102,16 +110,24 @@ p {
   display: flex;
   font-size: 20px;
   font-weight: bold;
-  height: 100%;
+  // height: 100%;
   justify-content: center;
   opacity: 0.9;
   padding: 10px 30px 10px;
   text-decoration: none;
-  width: 134px;
+  // width: 134px;
 }
 
 .button:hover {
   opacity: 1;
+}
+
+.left-curve {
+  border-radius: 0% 10% 10% 0%;
+}
+
+.right-curve {
+  border-radius: 10% 0% 0% 10%;
 }
 
 /**
