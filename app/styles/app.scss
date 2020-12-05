@@ -116,13 +116,13 @@ p {
   text-decoration: none;
 }
 
-.button:hover {
+.button:active {
   background: #fff;
   border: 2px #44C0C5 solid;
   color: #44C0C5;
 }
 
-.button:hover .nav-icon {
+.button:active .nav-icon {
   fill: #44C0C5;
 }
 
