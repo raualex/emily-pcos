@@ -184,6 +184,15 @@ p {
   text-decoration: none;
 }
 
+.wc-button:hover {
+  opacity: 1;
+}
+
+.wc-button:active {
+  background: #fff;
+  color: #C5A551;
+}
+
 /**
  * About Page
  */
