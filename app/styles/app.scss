@@ -108,12 +108,12 @@ p {
 
 .button:active {
   background: #fff;
-  border: 2px #44C0C5 solid;
-  color: #44C0C5;
+  border: 2px #C5A551 solid;
+  color: #C5A551;
 }
 
 .button:active .nav-icon {
-  fill: #44C0C5;
+  fill: #C5A551;
 }
 
 .button:hover {
@@ -139,6 +139,9 @@ p {
 }
 
 .emily-plant {
+  border-bottom: 2px #C5A551 solid;
+  border-top: 2px #C5A551 solid;
+  margin-top: 40px;
   width: 100vw;
 }
 
@@ -155,9 +158,16 @@ p {
   left: 100px;
   padding: 60px;
   position: absolute;
-  text-align: center;
   top: 532px;
   width: 700px;
+}
+
+.wc-p-center {
+  text-align: center;
+}
+
+.wc-p-left {
+  text-align: left;
 }
 
 .wc-button {
@@ -170,8 +180,24 @@ p {
   font-weight: bold;
   justify-content: center;
   opacity: 0.9;
+  padding: 10px;
   text-decoration: none;
 }
+
+/**
+ * About Page
+ */
+
+
+/**
+ * Testimonials Page
+ */
+
+ .test-emily-kayak {
+  border-bottom: 2px #C5A551 solid;
+  border-top: 2px #C5A551 solid;
+  width: 100vw;
+ }
 
 /**
  * Utilities
