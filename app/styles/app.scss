@@ -90,6 +90,7 @@ p {
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 2;
 }
 
  .button {
@@ -102,7 +103,6 @@ p {
   font-size: 1.15rem;
   font-weight: bold;
   justify-content: center;
-  opacity: 0.9;
   text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  left: 100px;
+  left: 10%;
   padding: 60px;
   position: absolute;
   top: 100px;
