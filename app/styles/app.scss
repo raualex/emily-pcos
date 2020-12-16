@@ -50,7 +50,8 @@ p {
 .jumbo {
   background: #fff;
   height: 100vh;
-  width: 100%;
+  position: relative;
+  width: 100vw;
 }
 
 .jumbo h2 {
@@ -65,23 +66,11 @@ p {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 365px;
+  height: 80px;
   justify-content: space-around;
+  margin-bottom: 40px;
   max-width: 100%;
-  padding: 10px;
-  width: 100%;
-}
-
-.pcos-wc-logo {
-  background: url(../assets/images/pcos-womens-center-logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: 2px #44C0C5 solid;
-  border-radius: 10%;
-  display: block;
-  min-height: 197px;
-  min-width: 279px;
-  margin: 40px;
+  width: 100vw;
 }
 
 .nav-icon {
@@ -94,8 +83,14 @@ p {
 .nav-btn-container {
   border-radius: 20%;
   display: flex;
+  height: 80px;
   flex-direction: row;
   flex-wrap: wrap;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
 }
 
  .button {
@@ -104,34 +99,165 @@ p {
   border: 2px #44C0C5 solid;
   color: #fff;
   display: flex;
+  flex-grow: 1;
   font-size: 1.15rem;
   font-weight: bold;
   justify-content: center;
-  opacity: 0.9;
-  padding-left: 20px;
   text-decoration: none;
 }
 
 .button:active {
   background: #fff;
-  border: 2px #44C0C5 solid;
-  color: #44C0C5;
+  border: 2px #C5A551 solid;
+  color: #C5A551;
 }
 
 .button:active .nav-icon {
-  fill: #44C0C5;
+  fill: #C5A551;
 }
 
 .button:hover {
   opacity: 1;
 }
 
-.left-curve {
-  border-radius: 0% 10% 10% 0%;
+/**
+ * Home Page
+ */
+
+ .pcos-wc-logo {
+  background: url(../assets/images/pcos-womens-center-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px #44C0C5 solid;
+  border-radius: 10%;
+  display: block;
+  max-height: 197px;
+  max-width: 279px;
+  min-height: 197px;
+  min-width: 279px;
+  margin: auto;
 }
 
-.right-curve {
-  border-radius: 10% 0% 0% 10%;
+.emily-plant {
+  border-bottom: 2px #C5A551 solid;
+  border-top: 2px #C5A551 solid;
+  margin-top: 40px;
+  width: 100vw;
+}
+
+.welcome-container {
+  align-items: space-around;
+  background-color: rgba(68,192,197, 0.75);
+  border: 2px #C5A551 solid;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  height: 400px;
+  justify-content: space-around;
+  left: 100px;
+  padding: 60px;
+  position: absolute;
+  top: 532px;
+  width: 700px;
+}
+
+.wc-p-center {
+  text-align: center;
+}
+
+.wc-p-left {
+  text-align: left;
+}
+
+.wc-button {
+  align-items: center;
+  border: 2px #C5A551 solid;
+  background: #44C0C5;
+  color: #fff;
+  display: flex;
+  font-size: 1.15rem;
+  font-weight: bold;
+  justify-content: center;
+  opacity: 0.9;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.wc-button:hover {
+  opacity: 1;
+}
+
+.wc-button:active {
+  background: #fff;
+  color: #C5A551;
+}
+
+/**
+ * About Page
+ */
+
+.about-bio-box {
+  border: 2px #C5A551 solid;
+  display: flex;
+  margin: 10% auto;
+  width: 85%;
+}
+
+.bb-right {
+  justify-content: flex-end;
+}
+
+.about-bio-text {
+  margin: auto;
+}
+
+/**
+ * Testimonials Page
+ */
+
+.test-emily-kayak {
+  border-bottom: 2px #C5A551 solid;
+  border-top: 2px #C5A551 solid;
+  width: 100vw;
+}
+
+.testimonital-card-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 0px;
+  margin-right: 5%;
+  padding: 60px;
+  position: absolute;
+  top: 0px;
+}
+
+.testimonial-card {
+  align-items: space-around;
+  background-color: rgba(68,192,197, 0.75);
+  border: 2px #C5A551 solid;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  height: 20%;
+  // height: 342px;
+  justify-content: flex-start;
+  margin: 30px;
+  padding: 30px;
+  width: 30%;
+  // width: 366px;
+}
+
+.test-quote {
+  margin-bottom: 15px;
+}
+
+.test-name {
+  margin-top: 15px;
 }
 
 /**
