@@ -201,6 +201,43 @@ p {
   color: #C5A551;
 }
 
+.wc-offerings-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+}
+
+.wc-offering {
+  border: 2px #C5A551 solid;
+  margin: 20px;
+  padding: 40px;
+  width: 50%;
+}
+
+.wc-offering-title {
+  font-size: 1.75rem;
+  text-align: center;
+}
+.wc-offering-text {
+  font-size: 1rem;
+  padding: 10%;
+}
+
+.wc-offering-btn {
+  background: #C5A551;
+  border: 2px #C5A551 solid;
+  color: #000;
+  margin-left: 10%;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.wc-offering-btn:active {
+  background: #fff;
+  color: #C5A551
+}
+
 /**
  * About Page
  */
