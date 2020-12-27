@@ -22,4 +22,8 @@ branches:
     - main
 
 script:
-  - npm test
+ - ember build --prod
+deploy:
+  provider: surge
+  project: ./dist
+  domain: normal-park.surge.sh
