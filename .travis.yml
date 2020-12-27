@@ -23,4 +23,5 @@ deploy:
   provider: surge
   project: ./dist
   domain: normal-park.surge.sh
-  on: main
+  on: 
+    branch: main
