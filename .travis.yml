@@ -17,7 +17,7 @@ env:
     # See https://git.io/vdao3 for details.
     - JOBS=1
 
-script:
+before_deploy:
  - ember build --prod
 deploy:
   provider: surge
