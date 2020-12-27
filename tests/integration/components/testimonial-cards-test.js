@@ -12,6 +12,7 @@ module('Integration | Component | testimonial-cards', function(hooks) {
 
     await render(hbs`<TestimonialCards />`);
 
+    assert.expect(0);
     // assert.equal(this.element.textContent.trim(), '');
   });
 });
