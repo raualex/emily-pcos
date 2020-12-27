@@ -21,7 +21,7 @@ script:
  - ember build --prod
 deploy:
   provider: surge
-  project: ./app
+  project: ./dist
   domain: normal-park.surge.sh
   on: 
     branch: main
