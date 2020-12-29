@@ -132,7 +132,12 @@ p {
  * Home Page
  */
 
- .pcos-wc-logo {
+.pcos-main-banner-logo {
+  display: block;
+  margin: auto;
+}
+
+.pcos-wc-logo {
   background: url(../assets/images/pcos-womens-center-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
