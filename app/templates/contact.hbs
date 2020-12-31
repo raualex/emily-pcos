@@ -1,11 +1,12 @@
-<div class="jumbo">
+<div class="jumbo jumbo-contact-page">
   <Header/>
+  <h2 class="contact-page-header">Follow me on:</h2>
   <div class="contact-link-container">
     {{svg-jar "002-instagram" class="contact-icon"}}
     <a href="https://www.instagram.com/pcos.wellness.coach/?hl=en" 
       target="_blank"
       rel="noopener noreferrer"
-      class="contact-link">@PCOS.Wellness.Coach
+      class="contact-link contact-link-clickable">@PCOS.Wellness.Coach
     </a>
   </div>
   <div class="contact-link-container">
@@ -13,9 +14,20 @@
     <a href="http://www.facebook.com" 
       target="_blank"
       rel="noopener noreferrer"
-      class="contact-link">PCOS Wellness Coach
+      class="contact-link contact-link-clickable">PCOS Wellness Coach
     </a>
   </div>
-  <h2>313-444-4058</h2>
+  <div class="contact-link-container">
+    {{svg-jar "001-telephone" class="contact-icon"}}
+    <h2 class="contact-link contact-link-static">313-444-4058</h2>
+  </div>
+  <div class="contact-link-container">
+    {{svg-jar "001-envelope" class="contact-icon"}}
+    <a href="mailto:PCOSWC@gmail.com" 
+      target="_blank"
+      rel="noopener noreferrer"
+      class="contact-link contact-link-clickable">PCOSWC@gmail.com 
+    </a>
+  </div>
   <Footer-contact/>
 </div>
