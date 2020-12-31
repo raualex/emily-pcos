@@ -54,10 +54,6 @@ p {
   width: 100vw;
 }
 
-.jumbo h2 {
-  font-size: 3.2em;
-}
-
 /**
  * Header
  */
@@ -75,9 +71,9 @@ p {
 
 .nav-icon {
   fill: #fff;
-  height: 40px;
+  height: 30px;
   margin: 20px;
-  width: 40px;
+  width: 30px;
 }
 
 .nav-btn-container {
@@ -100,7 +96,8 @@ p {
   color: #fff;
   display: flex;
   flex-grow: 1;
-  font-size: 1.15rem;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.5rem;
   font-weight: bold;
   justify-content: center;
   text-decoration: none;
@@ -186,7 +183,7 @@ p {
 .wc-button {
   align-items: center;
   border: 2px #C5A551 solid;
-  background: #44C0C5;
+  background: #C5A551;
   color: #fff;
   display: flex;
   font-size: 1.15rem;
@@ -333,17 +330,17 @@ p {
 .contact-link-container {
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin: 20px;
-  width: 144px;
 }
 
- .contact-link {
-
- }
+.contact-link {
+  font-size: 3.2em;
+}
 
  .contact-icon {
    height: 40px;
+   margin-right: 30px;
    width: 40px;
  }
 
