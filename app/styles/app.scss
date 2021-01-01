@@ -61,6 +61,10 @@ p {
   justify-content: flex-start;
 }
 
+.jumbo-testimonials-page {
+  
+}
+
 /**
  * Header
  */
@@ -293,6 +297,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
   left: 0px;
+  overflow-y: scroll;
   padding-top: 110px;
   position: absolute;
   top: 0px;
@@ -302,6 +307,7 @@ p {
   align-items: space-around;
   background-color: rgba(68,192,197, 0.75);
   border: 2px #C5A551 solid;
+  border-radius: 10%;
   color: #fff;
   display: flex;
   flex-direction: column;
