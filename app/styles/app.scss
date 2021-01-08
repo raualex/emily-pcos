@@ -294,6 +294,7 @@ p {
   border: 2px #C5A551 solid;
   display: flex;
   margin: 10% auto;
+  padding: 20px;
   width: 85%;
 }
 
@@ -302,13 +303,30 @@ p {
   width: 300px;
 }
 
+.about-bio-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 32px;
+  margin: auto;
+}
+
 .about-bio-text-header {
   color: #44C0C5;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.about-bio-text {
+  width: 70%;
 }
 
 .about-ulist {
+  align-self: center;
   font-weight: bold;
-  list-style-type: none;
+  list-style-type: circle;
+  width: 60%;
 }
 
 /**
