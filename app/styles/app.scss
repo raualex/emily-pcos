@@ -52,14 +52,9 @@ p {
 }
 
 .jumbo-contact-page {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.jumbo-testimonials-page {
-
+  justify-content: space-between;
 }
 
 /**
@@ -446,7 +441,6 @@ p {
   display: flex;
   flex-direction: column;
   font-family: 'Arimo', sans-serif;
-  height: 100vh;
   justify-content: center;
   margin: 20px;
 }
