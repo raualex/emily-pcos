@@ -139,10 +139,8 @@ p {
   display: flex;
   height: 70px;
   margin-top: 80px;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 1%;
-  position: fixed;
-  bottom: 0;
   width: 100vw;
 }
 
@@ -150,6 +148,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-right: 24px;
 }
 
 .footer-link-credits {
@@ -444,39 +443,33 @@ p {
  * Contact Page
  */
 
-.contact-page-header {
-  color: #44C0C5;
-  font-family: 'Bree Serif', serif;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
 .contact-link-container {
   align-items: center;
   display: flex;
+  height: 100%;
   justify-content: flex-start;
   margin: 20px;
 }
 
 .contact-link {
-  color: #000;
+  background-color: #44C0C5;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
   font-size: 2rem;
   font-weight: normal;
+  padding: 20px;
+}
+
+.contact-link:active {
+
+}
+
+.contact-link:hover {
+  cursor: pointer;
 }
 
 .contact-link:visited {
-  color: #000;
-}
-
-.contact-link-clickable:hover {
-  color: #C5A551;
-  font-weight: bold;
-}
-
-.contact-link-static:hover {
-  cursor: default;
+  color: #fff;
 }
 
 .contact-icon {
