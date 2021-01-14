@@ -146,6 +146,18 @@ p {
   width: 100vw;
 }
 
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-link-credits {
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-left: 11px;
+}
+
 .footer-link {
   color: #fff;
   padding-left: 4px;
@@ -157,19 +169,19 @@ p {
 }
 
 .footer-icon {
+  background-color: #fff;
+  border-radius: 30%;
   height: 40px;
-  margin: 10px;
-  padding: 1px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 4px;
   width: 40px;
 }
 
 .footer-icon-link:hover {
   cursor: pointer;
-}
-
-.instagram-icon {
-  background-color: #fff;
-  border-radius: 30%;
 }
 
 .footer-empty {
