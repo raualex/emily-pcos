@@ -30,7 +30,6 @@ body {
 }
 
 a {
-  color: #016aba;
   text-decoration: none;
 }
 
@@ -155,6 +154,22 @@ p {
 
 .footer-link:hover {
   color: #C5A551;
+}
+
+.footer-icon {
+  height: 40px;
+  margin: 10px;
+  padding: 1px;
+  width: 40px;
+}
+
+.footer-icon-link:hover {
+  cursor: pointer;
+}
+
+.instagram-icon {
+  background-color: #fff;
+  border-radius: 30%;
 }
 
 .footer-empty {
@@ -434,6 +449,7 @@ p {
 }
 
 .contact-link {
+  color: #000;
   font-size: 2rem;
   font-weight: normal;
 }
@@ -460,6 +476,10 @@ p {
 /**
  * Utilities
  */
+
+.arimo-text {
+  font-family: 'Arimo', sans-serif;
+}
 
 .light {
   font-weight: 300;
