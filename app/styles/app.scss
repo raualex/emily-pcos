@@ -131,9 +131,14 @@ p {
   display: flex;
   height: 70px;
   margin-top: 80px;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 1%;
   width: 100vw;
+}
+
+.footer-copyright-text {
+  color: #fff;
+  margin: 10px;
 }
 
 .footer-link-container {
