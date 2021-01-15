@@ -11,13 +11,10 @@
 
 body,
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
-p,
-div,
 span,
 a,
 button {
@@ -30,7 +27,6 @@ body {
 }
 
 a {
-  color: #016aba;
   text-decoration: none;
 }
 
@@ -55,14 +51,9 @@ p {
 }
 
 .jumbo-contact-page {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.jumbo-testimonials-page {
-
+  justify-content: space-between;
 }
 
 /**
@@ -140,11 +131,23 @@ p {
   display: flex;
   height: 70px;
   margin-top: 80px;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 1%;
-  position: fixed;
-  bottom: 0;
   width: 100vw;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 24px;
+}
+
+.footer-link-credits {
+  font-family: 'Arimo', sans-serif;
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-left: 11px;
 }
 
 .footer-link {
@@ -155,6 +158,22 @@ p {
 
 .footer-link:hover {
   color: #C5A551;
+}
+
+.footer-icon {
+  background-color: #fff;
+  border-radius: 30%;
+  height: 40px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 4px;
+  width: 40px;
+}
+
+.footer-icon-link:hover {
+  cursor: pointer;
 }
 
 .footer-empty {
@@ -201,6 +220,7 @@ p {
   color: #fff;
   display: flex;
   flex-direction: column;
+  font-family: 'Arimo', sans-serif;
   font-size: 1.25rem;
   height: 400px;
   justify-content: space-around;
@@ -291,9 +311,12 @@ p {
  */
 
 .about-bio-box {
+  align-items: center;
   border: 2px #C5A551 solid;
   display: flex;
   margin: 10% auto;
+  justify-content: center;
+  padding: 20px;
   width: 85%;
 }
 
@@ -302,26 +325,53 @@ p {
   width: 300px;
 }
 
+.about-bio-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 32px;
+  margin: auto;
+}
+
+.about-page-header-text {
+  font-family: 'Arimo', sans-serif;
+}
+
 .about-bio-text-header {
   color: #44C0C5;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.about-bio-text {
+  font-family: 'Arimo', sans-serif;
+  width: 70%;
+}
+
+.about-bio-span {
+  font-weight: 700;
 }
 
 .about-ulist {
+  align-self: center;
   font-weight: bold;
   list-style-type: none;
+  width: 60%;
 }
 
 /**
  * Work With Me /Schedule Page
  */
 
-.about-emily-mug {
+.wwm-emily-mug {
   height: 450px;
   width: 310px;
 }
 
-.bb-right {
-  justify-content: flex-end;
+.wwm-program-pic {
+  height: 450px;
+  width: 450px;
 }
 
 /**
@@ -399,38 +449,44 @@ p {
  * Contact Page
  */
 
-.contact-page-header {
-  color: #44C0C5;
-  font-family: 'Bree Serif', serif;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
 .contact-link-container {
   align-items: center;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  font-family: 'Arimo', sans-serif;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contact-header {
+  color: #44C0C5;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.contact-text {
   margin: 20px;
 }
 
 .contact-link {
-  font-size: 2rem;
-  font-weight: normal;
-}
-
-.contact-link:visited {
-  color: #000;
-}
-
-.contact-link-clickable:hover {
-  color: #C5A551;
+  background-color: #44C0C5;
+  border: 2px #44C0C5 solid;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.25rem;
   font-weight: bold;
+  margin: 20px;
+  padding: 20px;
 }
 
-.contact-link-static:hover {
-  cursor: default;
+.contact-link:active {
+  background-color: #fff;
+  border: 2px #C5A551 solid;
+  color: #C5A551;
+}
+
+.contact-link:hover {
+  cursor: pointer;
 }
 
 .contact-icon {
@@ -442,6 +498,10 @@ p {
 /**
  * Utilities
  */
+
+.arimo-text {
+  font-family: 'Arimo', sans-serif;
+}
 
 .light {
   font-weight: 300;
