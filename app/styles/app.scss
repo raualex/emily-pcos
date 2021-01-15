@@ -144,6 +144,7 @@ p {
 }
 
 .footer-link-credits {
+  font-family: 'Arimo', sans-serif;
   font-size: 10px;
   margin-bottom: 5px;
   margin-left: 11px;
@@ -219,6 +220,7 @@ p {
   color: #fff;
   display: flex;
   flex-direction: column;
+  font-family: 'Arimo', sans-serif;
   font-size: 1.25rem;
   height: 400px;
   justify-content: space-around;
@@ -330,6 +332,10 @@ p {
   margin: auto;
 }
 
+.about-page-header-text {
+  font-family: 'Arimo', sans-serif;
+}
+
 .about-bio-text-header {
   color: #44C0C5;
   margin-bottom: 15px;
@@ -337,13 +343,18 @@ p {
 }
 
 .about-bio-text {
+  font-family: 'Arimo', sans-serif;
   width: 70%;
+}
+
+.about-bio-span {
+  font-weight: 700;
 }
 
 .about-ulist {
   align-self: center;
   font-weight: bold;
-  list-style-type: circle;
+  list-style-type: none;
   width: 60%;
 }
 
