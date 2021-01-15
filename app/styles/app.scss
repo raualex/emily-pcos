@@ -311,9 +311,11 @@ p {
  */
 
 .about-bio-box {
+  align-items: center;
   border: 2px #C5A551 solid;
   display: flex;
   margin: 10% auto;
+  justify-content: center;
   padding: 20px;
   width: 85%;
 }
