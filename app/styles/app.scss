@@ -317,12 +317,13 @@ p {
 
 .about-bio-box {
   align-items: center;
-  border: 2px #C5A551 solid;
+  box-shadow: 5px 5px 10px 5px #ededed;
   display: flex;
-  margin: 10% auto;
+  height: 700px;
+  margin: 2% auto;
   justify-content: center;
   padding: 20px;
-  width: 85%;
+  width: 90%;
 }
 
 .about-emily-profile {
