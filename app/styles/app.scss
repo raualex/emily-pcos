@@ -385,7 +385,9 @@ p {
 
 .test-background-page {
   align-content: baseline;
-  background-image: url("assets/images/emily-kayaking-photo.jpg") repeat 0 0;
+  background-image: url("images/emily-kayaking-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -399,18 +401,8 @@ p {
 }
 
 .testimonital-card-container {
-  // align-items: center;
-  // display: flex;
-  // flex-direction: column;
-  height: 71.5vh;
-  // justify-content: space-around;
-  left: 0px;
-  overflow-y: auto;
-  padding-top: 20px;
-  position: absolute;
-  top: 80px;
+  padding-top: 110px;
   width: 100vw;
-  z-index: 2;
 }
 
 .testimonial-quote-box {
