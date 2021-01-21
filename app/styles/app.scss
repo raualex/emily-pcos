@@ -371,8 +371,8 @@ p {
  */
 
 .wwm-emily-mug {
-  height: 450px;
-  width: 310px;
+  height: 470px;
+  width: 340px;
 }
 
 .wwm-program-pic {
@@ -383,23 +383,6 @@ p {
 /**
  * Testimonials Page
  */
-
-.test-background-page {
-  align-content: baseline;
-  background-image: url("images/emily-kayaking-photo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-}
-
-.test-emily-kayak {
-  border: 2px #C5A551 solid;
-  height: 500px;
-  padding: 8px;
-  width: 52vw;
-}
 
 .testimonital-card-container {
   padding-top: 110px;
@@ -430,7 +413,7 @@ p {
   align-items: center;
   background-color: rgba(68,192,197, 0.75);
   border: 2px #C5A551 solid;
-  border-radius: 10%;
+  border-radius: 20px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -440,10 +423,45 @@ p {
   margin: auto;
   margin-bottom: 80px;
   padding: 30px;
-  width: 430px;
+  width: 80vw;
+}
+
+.testimonial-contents-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 75%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.testimonial-card-pic {
+  border: 2px #C5A551 solid;
+  height: 270px;
+  width: 420px;
+}
+
+.testimonial-card-pic-dawne {
+  border: 2px #C5A551 solid;
+  height: 340px;
+  width: 420px;
+}
+
+.testimonial-card-pic-heather {
+  border: 2px #C5A551 solid;
+  height: 350px;
+  width: 420px;
+}
+
+.testimonial-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .test-quote {
+  font-family: 'Arimo', sans-serif;
   margin-bottom: 15px;
   margin-top: 10px;
   text-indent: 20px;
@@ -451,6 +469,7 @@ p {
 }
 
 .test-name {
+  font-family: 'Arimo', sans-serif;
   margin-top: 15px;
 }
 
