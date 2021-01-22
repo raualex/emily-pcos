@@ -9,34 +9,12 @@
   padding: 0;
 }
 
-body,
-h1,
-h3,
-h4,
-h5,
-h6,
-span,
-a,
-button {
-  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-}
-
 body {
   background: #fff;
 }
 
 a {
   text-decoration: none;
-}
-
-button {
-  font-size: 100%;
-}
-
-p {
-  line-height: 1.5;
-  margin-bottom: 15px;
 }
 
 /**
@@ -226,17 +204,18 @@ p {
   display: flex;
   flex-direction: column;
   font-family: 'Arimo', sans-serif;
-  font-size: 1.25rem;
-  height: 400px;
+  font-size: 1rem;
+  height: 500px;
   justify-content: space-around;
   left: 100px;
-  padding: 60px;
+  padding: 40px 60px 60px 60px;
   position: absolute;
-  top: 532px;
+  top: 430px;
   width: 700px;
 }
 
 .wc-p-center {
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -319,10 +298,9 @@ p {
   align-items: center;
   box-shadow: 5px 5px 10px 5px #ededed;
   display: flex;
-  height: 700px;
   margin: 2% auto;
   justify-content: center;
-  padding: 20px;
+  padding: 50px 20px 50px 20px;
   width: 90%;
 }
 
@@ -331,23 +309,29 @@ p {
   width: 300px;
 }
 
+.about-pics {
+  margin: 80px;
+}
+
 .about-bio-text-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   line-height: 32px;
-  margin: auto;
 }
 
 .about-page-header-text {
   font-family: 'Arimo', sans-serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .about-bio-text-header {
   color: #44C0C5;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  font-family: 'Arimo', sans-serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .about-bio-text {
@@ -531,6 +515,10 @@ p {
 
 .arimo-text {
   font-family: 'Arimo', sans-serif;
+}
+
+.bottom-text {
+  margin-bottom: 20px;
 }
 
 .light {
