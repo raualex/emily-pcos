@@ -262,6 +262,7 @@ a {
 
 .wc-offering {
   border: 2px #C5A551 solid;
+  height: 254px;
   margin: 20px;
   padding: 40px;
   width: 50%;
@@ -271,6 +272,13 @@ a {
   font-size: 1.75rem;
   text-align: center;
 }
+
+.wc-coming-soon {
+  font-size: 1rem;
+  margin-top: 8px;
+  text-align: center;
+}
+
 .wc-offering-text {
   font-size: 1rem;
   padding: 10%;
